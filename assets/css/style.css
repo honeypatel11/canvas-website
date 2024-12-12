@@ -13,55 +13,145 @@
  :root {
     --cnvs-color-4: #E85C31;
     --cnvs-color-5: #A72531;
+   --cnvs-btn-gradient: to right, var(--cnvs-color-4), var(--cnvs-color-5), var(--cnvs-color-4);
  }
 
   body.dark{
     background-color: rgb(11,10,30);
   }
  
-.border {
+.border1 {
     border-radius: 15px;
     padding: 10px 10px;
     background: -webkit-linear-gradient(var(--cnvs-card-bg));
     background: linear-gradient(var(--cnvs-card-bg));
     --cnvs-card-bg: to right, var(--cnvs-color-4), var(--cnvs-color-5);
     margin-top: 20px;
- 
 }
 .link a {
     color: white;
     list-style: none;
     text-decoration: none;
     cursor: pointer;
-    transition: 0.6s all linear;
     font-size: 18px;
 }
 .link a:hover {
-    color: black;
-   
+    color: black;  
+    transition: 0.6s all linear;
 }
-.label {
-    border-radius: 7px;
-    background-color: aliceblue;
-    color: #d17470;
-}
-.ml-3{
-    padding: 3px;
-}
-
 .icon {
     border-radius: 7px;
- 
     padding: 6px 6px;
 }
  .input-group-text {
     border: none;
     background: transparent !important;
+    border: 1px solid #eeeeee5d !important;
+    opacity: .6;   
+}
+.label {
+    background-color: transparent !important;
+    border: 0 !important;
+}
+.label::placeholder{
+    font-weight: 600;
+    color: #EEE;
+    opacity: .6;
+}
+.connect-wallet {
+    border-radius: 10px;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    padding: 8px 8px;
+}
+.connect-wallet span {
+    outline: none;
+    text-decoration: none;
+    list-style: none;
+}
+.link-hover span:hover {
+    color: black;
+    background:#E85C31;
+    transition: 0.8s all linear;
+    cursor: pointer;
+}
+.header-icon {
+   border: 1px solid #eeeeee5d ;
+    background: transparent !important;
+    opacity: .6;
+    border-radius: 10px;
+    padding: 8px 0;
+}
+.header-icon i {
+    padding: 10px; 
+    opacity: .6;
+}
+.mt {
+    margin-top: 250px;
+}
+span {
+    color: #E85C31;
+}
+.paragraph {
+    color: #9d9da6;
+    font-size: 20px;
+   font-weight: 500;
+    margin-top: 50px;
+}
+.btn-1 {
+    border-radius: 10px;
+    padding: 10px 30px;
+    margin-top: 30px;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: #E85C31;
+}
+.btn-1:hover {
+    background-color: #a4343f;
+    color: white;  
+}
+.box {
+    padding: 20px;
+    background-color:#a5b4c2;
+}
 
-   
+.box img{
+    border-radius: 10px;
+}
+.title {
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    margin-top: 30px;
+}
+.share-icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    margin-top: 20px;
+    color: #68707a;
+    border-radius: 50%;
+    border: 1px solid seagreen;  
   
 }
-.form-control {
-    color: #d17470 !important;
+.name {
+    color: #333337;
+    font-size: 15px;
+    font-weight: 600;
 }
+.eth {
+    color:#d66351 ;
+}
+.dollor {
+    color:#a7a6b8 ;
+}
+
+
+
+
 

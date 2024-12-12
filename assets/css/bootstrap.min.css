@@ -178,7 +178,7 @@ dl,
 ol,
 ul {
     margin-top: 0;
-    margin-bottom: 1rem
+    /* margin-bottom: 1rem */
 }
 
 ol ol,
@@ -4479,7 +4479,7 @@ fieldset:disabled .btn {
     align-items: center;
     justify-content: space-between;
     padding-top: .5rem;
-    /* padding-bottom: .5rem */
+    padding-bottom: .5rem
 }
 
 .navbar>.container,

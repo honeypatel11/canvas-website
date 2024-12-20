@@ -17,9 +17,14 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
-<body class="dark">
-    
-    <header class="header">
+<body class="">
+    <section>
+        <!-- particles.js container -->
+    <div id="particles-js"></div> <!-- stats - count particles -->
+   
+    <!-- stats.js lib -->
+</section>
+    <header class="header ">
         <div class="container">
             <div class="d-flex justify-content-between align-items-center mt-5 border1 border-0">
                 <div class="logo d-flex align-items-center">
@@ -51,7 +56,7 @@
                     </span>
                     <div class="link-hover">
                         <span
-                            class="connect-wallet bg-gradient gradient-color button-small m-0 ms-lg-4 me-lg-3 d-none d-md-block">Connect
+                            class="connect-wallet  button-small m-0 ms-lg-4 me-lg-3 d-none d-md-block">Connect
                             Wallet</span>
                     </div>
                     <div>
@@ -68,17 +73,11 @@
             </div>
         </div>
     </header>
-    <section>
-        <!-- particles.js container -->
-    <div id="particles-js"></div> <!-- stats - count particles -->
-    <div class="count-particles"> <span class="js-count-particles">--</span> particles </div> <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
-    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- stats.js lib -->
-    
-    </section>
+
 
     <!-- first-section -->
     <section class="first-section p-100">
-        <div class="container">
+        <div class="container first-section-position">
             <div class="row">
 
                 <div class="col-7">
@@ -192,7 +191,7 @@
         </div>
     </section>
     <!-- second section -->
-     <section class="p-100 second-section">
+     <!-- <section class="p-100 second-section">
         <div class="container">
             <div class="text-center">
                 <p class="color-change">OUR MARKETPLACE</p>
@@ -209,7 +208,7 @@
                 </ul>
             </div>
         </div>
-     </section>
+     </section> -->
     <!-- third section -->
      <section class="third-section p-100">
         <div class="container">
@@ -250,6 +249,27 @@
             
         </div>
      </section>
+     <!--  forth section  -->
+      <section class="forth-section p-100">
+            <div class="container">
+                <div class="text-center">
+                    <p class="color-change">TOP SELLERS</p>
+                  
+                    <div class="ms-3">
+                        <p class="text-white display-4 fw-bold">Top Sellers in
+                        </p>
+                        <select class="form-select form-select-lg headeing-select mb-0" aria-label="example">
+                            <option value="7 Days" selected="">a 7 Days</option>
+                            <option value="1 Month">a month</option>
+                            <option value="3 Months">3 Months</option>
+                            <option value="Year">a Year</option>
+                        </select>
+                    </div>
+                </div>
+                
+      
+           </div>
+      </section>
     <!-- fifth section -->
      <section class="fifth-section p-100">
         <div class="container">
@@ -361,10 +381,13 @@
             </div>
         </div>
     </footer>
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 
-    <script src="./assets/js/particle.js"></script>
-    <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+    
     <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/particle.js"></script>
+  
+    <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
     <script src="./assets/js/bootstrap.bundle.js"></script>
     <script src="./assets/js/swiper-bundle.min.js"></script>
     <script>
